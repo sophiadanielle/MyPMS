@@ -409,10 +409,12 @@
         }
         
 
-    function logout() {
-        localStorage.removeItem("loggedInUser");
-        window.location.href = "login.html";
-    }
+        function logout() {
+    console.log("Logout function triggered");
+    localStorage.removeItem("loggedInUser");
+    window.location.href = "login.html";
+}
+
 
     </script>
 </body>
